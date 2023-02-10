@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript Light Website</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="index.js" defer></script>
+</head>
+
+<body>
+    <div class="container">
+
+        <nav>
+            <img src="menu.png" class="menu" width="20px">
+            <img src="logo.png" class="logo">
+
+            <ul>
+                <li><a href="#">Latest</a></li>
+                <li><a href="#">Modern</a></li>
+                <li><a href="#">Contemporary</a></li>
+                <li><a href="#">Affordable</a></li>
+            </ul>
+
+            <button type="button" class="myBtn" id="btn" onclick="toggle()"><span></span></button>
+
+        </nav>
+
+        <div class="lamp">
+            <img src="lamp.png" alt="lamp" id="lamplight">
+            <img src="light.png" alt="light" class="light" id="light">
+        </div>
+
+        <div class="textContainer">
+            <h1  id="testid">Latest<br>in <span>Lighting</span></h1>
+
+            <p>This is the first lamp from our company. We're making a huge collections of modern Lamps in
+                all categories from home use to office use.</p>
+
+            <button type="button" class="btn2">Check All Collections</button>
+        </div>
+
+        <div class="decorate">
+            <p>04<span></span>05</p>
+        </div>
+
+
+    </div>
+
+    <!-- <script>
+        let light = document.getElementById("light");
+        let btq = document.getElementById("btn");
+        
+        function toggle() {
+            light.classList.toggle("on");
+            document.getElementById("testid").innerHTML = "HELLO" ;
+            btq.classList.toggle("active");
+            
+
+        }
+    </script> -->
+</body>
+
+
+</html>

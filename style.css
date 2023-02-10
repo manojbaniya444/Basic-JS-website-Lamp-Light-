@@ -1,0 +1,190 @@
+@import url('https://fonts.googleapis.com/css2?family=Akshar:wght@300;400&family=Radio+Canada&family=Water+Brush&display=swap');
+
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'Radio Canada', sans-serif;
+}
+
+.container
+{
+    width: 100%;
+    height: 100vh;
+    background: rgb(22, 22, 38);
+}
+
+nav{
+    display: flex;
+    padding: 20px 100px;
+    align-items: center;
+    justify-content: space-between;
+}
+nav ul
+{
+    flex: 1;
+    text-align: right;
+}
+
+nav .menu
+{
+    width: 50px;
+    margin-right: 20px;
+}
+
+nav .logo {
+    width: 160px;
+}
+
+nav ul li{
+    display: inline-block;
+    list-style: none;
+}
+
+nav ul li a{
+    text-decoration: none;
+    padding-left: 20px;
+    color: white;
+    transition: 0.3s linear;
+}
+
+nav ul li a:hover
+{
+    color: rgb(102, 98, 98);;
+}
+
+.myBtn
+{
+    width: 50px;
+    height: 20px;
+    background: white;
+    margin-left: 20px;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+    transition: background 3s;
+}
+
+.myBtn span{
+    width: 20px;
+    height: 18px;
+    background: rgb(102, 98, 98);
+    border: none;
+    border-radius: 50%;
+    display: block;
+    cursor: pointer;
+    transition: background 0.5s, margin 0.5s;
+}
+
+/* .lamp img
+{
+    
+} */
+
+.lamp #lamplight
+{
+    position: absolute;
+    left: 25%;
+    top: -10%;
+    height: 400px;
+    width: 180px;
+    
+}
+
+.light
+{
+    width: 580px;
+    height: 300px;
+    top: 48.5%;
+    left: 6.8%;
+    position: absolute;
+    opacity: 0;
+    transition:opacity 0.5s;
+}
+
+.textContainer
+{
+    color: #fff;
+    margin-top: 100px;
+    margin-left: 60%;
+}
+
+.textContainer h1
+{
+    font-size: 60px;
+    margin-bottom: 5px;
+}
+
+.textContainer .btn2
+{
+    cursor: pointer;
+    padding: 5px 20px;
+    border:none;
+    border-radius: 20px;
+    margin-top: 20px;
+    background: rgb(85, 210, 85);
+    color: white;
+    transition: 0.5s ease;
+}
+
+.textContainer .btn2:hover{
+    background: rgb(54, 88, 54);
+}
+
+.textContainer span{
+    color: rgba(245, 245, 245, 0.541);
+    transition: 0.5s ease;
+}
+
+.decorate
+{
+    color: white;
+    /* position: absolute; */
+    margin-left: 72%;
+    margin-top: 109px;
+    
+}
+
+.decorate span{
+    width: 200px;
+    height: 3px;
+    background-color: #fff;
+    display: inline-block;
+    margin: 0 20px;
+    border-radius: 5px;
+    margin-bottom: 3px;
+}
+
+.decorate span::before
+{
+    content:'';
+    width: 50%;
+    background-color: green;
+    height: 3px;
+    display: block;
+}
+
+
+.active
+{
+    background: green;
+    cursor: pointer;
+
+}
+
+.active span{
+    background: white;
+    margin-left: 30px;
+    cursor: pointer;    
+
+}
+
+
+.anotherclass span{
+    color: white;
+}
+
+.finalclass
+{
+    opacity: 1;
+}
